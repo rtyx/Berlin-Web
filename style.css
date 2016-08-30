@@ -1,0 +1,93 @@
+div {
+    border: 1px;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(182,104,4);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#header {
+    position: relative;
+    background-color: white;
+    height: 45px;
+}
+
+#logo {
+    position: absolute;
+    float: left;
+    width: auto;
+    height: 40px;
+}
+
+#menu {
+    position: relative;
+    float: right;
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#portada {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+#hero {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+#welcome {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    z-index: 2;
+    text-align: center;
+    margin: auto;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#boton {
+    border:5px solid rgb(182,104,4);
+    border-radius: 30px;
+    background:rgb(243,203,56);
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#info {
+    position: relative;;
+    height:100px;
+    background-color: rgb(203,203,203);
+}
+
+#footer {
+    position: relative;;
+    height: 30px;
+    background-color: rgb(102,102,102);
+}
+
+#copyright {
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+    vertical-align: middle;
+}
