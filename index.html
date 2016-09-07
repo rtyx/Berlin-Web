@@ -5,18 +5,33 @@
         Berlin-Webpage
     </title>
     <link type="text/css" rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
 <body>
     <div id="header">
-        <a href="https://www.google.es/"> <img id="logo" src="images/sprint.svg"/> </a>
-        <a href="https://www.elespanol.com/"> <img id="menu" src="images/hamburgermenu.svg"/> </a>
+        <div>
+          <a href="https://www.google.es/"> <img id="logo" src="images/sprint.svg"/> </a>
+        </div>
+        <div>
+          <button id="menu"></button>
+          <div id="myDropdown" class="dropdown-content menuelement">
+            <div id="closemenu">X</div>
+            <div id="content">
+              <a href="#">Settings</a>
+              <a href="#">Pricing</a>
+              <a href="#">Upgrade</a>
+              <a href="#">Subscribe</a>
+              <a id="logout" href="#">Log out</a>
+            </div>
+          </div>
+        </div>
     </div>
 
     <div id="portada">
         <div>
             <img id="hero" src="images/reichstag.jpg"/>
-            <div id="dark">...</div>
+            <div id="dark"></div>
         </div>
         <h1 id="welcome">
             Welcome to Berlin and the Future.
@@ -64,3 +79,6 @@
             </p>
         </div>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
