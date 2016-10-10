@@ -1,3 +1,4 @@
+/* eslint-env node, jquery */
 
 document.getElementById("menu").addEventListener('click', function menuclick(event) {
     document.getElementById("myDropdown").classList.toggle("show");
